@@ -8,14 +8,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="bg-blue-900 text-gray-50 flex-1">
+    <html lang="en" className="h-full">
+      <body className="bg-blue-900 text-gray-50 h-full flex flex-col">
         <header>
           <Logo />
           <Navigation />
         </header>
-        <main>{children}</main>
-        <footer>Copyright by The Wild Oasis</footer>
+        <main className="flex-grow">{children}</main>
+        <footer className="text-center py-4">
+          Copyright by The Wild Oasis
+        </footer>
       </body>
     </html>
   );
