@@ -510,11 +510,18 @@ video {
 .flex {
   display: flex;
 }
+.flex-1 {
+  flex: 1 1 0%;
+}
 .items-center {
   align-items: center;
 }
 .gap-4 {
   gap: 1rem;
+}
+.bg-blue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 .text-xl {
   font-size: 1.25rem;
@@ -522,6 +529,10 @@ video {
 }
 .font-semibold {
   font-weight: 600;
+}
+.text-gray-50 {
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
 /* @layer components {
