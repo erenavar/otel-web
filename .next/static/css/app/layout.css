@@ -513,8 +513,8 @@ video {
 .h-full {
   height: 100%;
 }
-.flex-1 {
-  flex: 1 1 0%;
+.min-h-screen {
+  min-height: 100vh;
 }
 .flex-grow {
   flex-grow: 1;
@@ -549,6 +549,10 @@ video {
 .text-gray-50 {
   --tw-text-opacity: 1;
   color: rgb(249 250 251 / var(--tw-text-opacity));
+}
+.text-primary-100 {
+  --tw-text-opacity: 1;
+  color: rgb(212 222 231 / var(--tw-text-opacity));
 }
 
 /* @layer components {
