@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/layout"],{
+self["webpackHotUpdate_N_E"]("app/layout",{
 
 /***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Ferenavar%2FDesktop%2FRepos%2Fotel-web%2Fapp%2F_styles%2Fglobals.css&modules=%2FUsers%2Ferenavar%2FDesktop%2FRepos%2Fotel-web%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=false!":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -25,7 +25,7 @@ eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpa
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"5de561e8e8b0\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC9fc3R5bGVzL2dsb2JhbHMuY3NzIiwibWFwcGluZ3MiOiI7QUFBQSwrREFBZSxjQUFjO0FBQzdCLElBQUksSUFBVSxJQUFJLGlCQUFpQiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9hcHAvX3N0eWxlcy9nbG9iYWxzLmNzcz81MjQ4Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiNWRlNTYxZThlOGIwXCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/_styles/globals.css\n"));
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"1963209d49cc\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC9fc3R5bGVzL2dsb2JhbHMuY3NzIiwibWFwcGluZ3MiOiI7QUFBQSwrREFBZSxjQUFjO0FBQzdCLElBQUksSUFBVSxJQUFJLGlCQUFpQiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9hcHAvX3N0eWxlcy9nbG9iYWxzLmNzcz81MjQ4Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiMTk2MzIwOWQ0OWNjXCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/_styles/globals.css\n"));
 
 /***/ }),
 
@@ -238,11 +238,4 @@ eval(__webpack_require__.ts("\nObject.defineProperty(exports, \"__esModule\", ({
 
 /***/ })
 
-},
-/******/ function(__webpack_require__) { // webpackRuntimeModules
-/******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Ferenavar%2FDesktop%2FRepos%2Fotel-web%2Fapp%2F_styles%2Fglobals.css&modules=%2FUsers%2Ferenavar%2FDesktop%2FRepos%2Fotel-web%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=false!"); });
-/******/ var __webpack_exports__ = __webpack_require__.O();
-/******/ _N_E = __webpack_exports__;
-/******/ }
-]);
+});
