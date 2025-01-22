@@ -528,10 +528,6 @@ video {
 .gap-4 {
   gap: 1rem;
 }
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
 .bg-primary-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(20 28 36 / var(--tw-bg-opacity));
@@ -549,10 +545,6 @@ video {
 }
 .font-semibold {
   font-weight: 600;
-}
-.text-gray-50 {
-  --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 .text-primary-100 {
   --tw-text-opacity: 1;
