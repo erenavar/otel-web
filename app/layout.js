@@ -8,6 +8,7 @@ const josefin = Josefin_Sans({
 });
 
 import "@/app/_styles/globals.css";
+import Header from "./_components/Header";
 
 export const metadata = {
   title: {
@@ -23,14 +24,8 @@ export default function RootLayout({ children }) {
     <html lang="en" className="h-full">
       <body
         className={`${josefin.className} bg-primary-950 text-primary-100 h-full flex flex-col min-h-screen`}>
-        <header>
-          <Logo />
-          <Navigation />
-        </header>
+        <Header />
         <main className="flex-grow">{children}</main>
-        <footer className="text-center py-4">
-          Copyright by The Wild Oasis
-        </footer>
       </body>
     </html>
   );
