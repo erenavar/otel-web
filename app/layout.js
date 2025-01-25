@@ -1,19 +1,28 @@
 import Logo from "@/app/_components/Logo";
 import Navigation from "@/app/_components/Navigation";
-import '@/app/_styles/globals.css'
+import { Josefin_Sans } from "next/font/google";
+
+const josefin = Josefin_Sans({
+  subsets: ["latin"],
+  display: "swap",
+});
+
+import "@/app/_styles/globals.css";
 
 export const metadata = {
-  title:{
+  title: {
     template: "%s / Hotel",
-    default:'Welcome to Hotel'
+    default: "Welcome to Hotel",
   },
-  description:'Luxurious Cabin Hotes in Italy,it was built in heart of nature.'
+  description:
+    "Luxurious Cabin Hotes in Italy,it was built in heart of nature.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full">
-      <body className="bg-primary-950 text-primary-100 h-full flex flex-col min-h-screen">
+      <body
+        className={`${josefin.className} bg-primary-950 text-primary-100 h-full flex flex-col min-h-screen`}>
         <header>
           <Logo />
           <Navigation />
